@@ -12,6 +12,7 @@ if (!$con) {
     exit();
 }
 
+
 // Get the raw POST data
 $input = file_get_contents("php://input");
 $data = json_decode($input, true); // Decode JSON into an associative array
